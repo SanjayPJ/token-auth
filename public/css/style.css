@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+html {
+    background-color: #e9ebee !important;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.search {
+    width: 500px;
+}
+
+.is-radius {
+    border-radius: 5px;
+}
+
+.is-primary-gradient {
+    background: #f2709c;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff9472, #f2709c);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff9472, #f2709c);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/*.navbar-item {
+    color: #fff;
+}*/
+
+.is-circle {
+    border-radius: 50% !important;
+}
+
+.is-hover-pink:hover {
+    color: #e84393 !important;
+}
+
+.is-hover-blue:hover {
+    color: blue !important;
+}
+
+.center-online {
+    margin-top: 13px !important;
+}
+
+.navbar-item:hover {
+    background-color: transparent !important;
+    /*color: #fff !important;*/
+}
+
+.on-hover-underline:hover {
+    text-decoration: underline;
+}
+
+.file.is-right .file-cta {
+    border-radius: 20px !important;
+}
+
+.message-container {
+    max-height: 91vh;
+}
+
+.messages-container {
+    height: 91vh;
+}
+
+.chat-container {
+    height: 76%;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    /* for vertical scrollbars */
+    height: 5px;
+    /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
